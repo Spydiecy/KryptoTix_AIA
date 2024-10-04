@@ -1,1 +1,36 @@
-
+{
+  "name": "Blockchain Beats Concert Memento #1",
+  "description": "Exclusive digital collectible from the Blockchain Beats Concert",
+  "image": "https://raw.githubusercontent.com/Spydiecy/KryptoTix/refs/heads/main/metadata/images/1-collectible.png?token=GHSAT0AAAAAACWB7IQD5ZCQPONXCFVAJUCQZYAARQA",
+  "external_url": "https://nfticket.example.com/collectible/1",
+  "attributes": [
+    {
+      "trait_type": "Event Name",
+      "value": "Blockchain Beats Concert"
+    },
+    {
+      "trait_type": "Event Date",
+      "value": "2024-07-15"
+    },
+    {
+      "trait_type": "Venue",
+      "value": "Crypto Arena"
+    },
+    {
+      "trait_type": "Original Ticket Type",
+      "value": "General Admission"
+    },
+    {
+      "trait_type": "Collectible Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Special Feature",
+      "value": "Animated Stage Graphic"
+    }
+  ]
+}
