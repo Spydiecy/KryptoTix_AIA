@@ -1,7 +1,7 @@
 {
   "name": "Concert Ticket #1",
   "description": "Admission ticket for the Blockchain Beats Concert",
-  "image": "https://nfticket.example.com/images/ticket/1/1.png",
+  "image": "https://raw.githubusercontent.com/Spydiecy/KryptoTix/refs/heads/main/metadata/images/1-ticket.png?token=GHSAT0AAAAAACWB7IQCD5LBSQHUZLCDUL4EZYAASQA",
   "external_url": "https://nfticket.example.com/event/1",
   "attributes": [
     {
