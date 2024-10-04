@@ -1,1 +1,36 @@
-
+{
+  "name": "Concert Ticket #1",
+  "description": "Admission ticket for the Blockchain Beats Concert",
+  "image": "https://nfticket.example.com/images/ticket/1/1.png",
+  "external_url": "https://nfticket.example.com/event/1",
+  "attributes": [
+    {
+      "trait_type": "Event Name",
+      "value": "Blockchain Beats Concert"
+    },
+    {
+      "trait_type": "Event Date",
+      "value": "2024-07-15"
+    },
+    {
+      "trait_type": "Event Time",
+      "value": "20:00"
+    },
+    {
+      "trait_type": "Venue",
+      "value": "Crypto Arena"
+    },
+    {
+      "trait_type": "Ticket Type",
+      "value": "General Admission"
+    },
+    {
+      "trait_type": "Seat",
+      "value": "GA-001"
+    },
+    {
+      "trait_type": "Ticket Number",
+      "value": 1
+    }
+  ]
+}
