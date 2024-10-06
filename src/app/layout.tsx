@@ -4,12 +4,16 @@ import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import { ThemeProvider } from 'next-themes';
 import { Web3Provider } from '@/context/Web3Context';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'KryptoTix',
   description: 'Decentralized Event Ticketing Platform',
+  icons: {
+    icon: './favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -19,6 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="./favicon.ico" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class">
           <Web3Provider>
