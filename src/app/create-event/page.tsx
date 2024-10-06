@@ -78,9 +78,13 @@ export default function CreateEvent() {
         
         await tx.wait();
         router.push('/events');
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error('Error creating event:', error);
-        setError(error.message || 'Error creating event. Please try again.');
+        if (error instanceof Error) {
+          setError(error.message || 'Error creating event. Please try again.');
+        } else {
+          setError('Error creating event. Please try again.');
+        }
       } finally {
         setLoading(false);
       }

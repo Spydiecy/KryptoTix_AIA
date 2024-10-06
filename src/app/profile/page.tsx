@@ -6,6 +6,7 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from '@/config/contract';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Edit2, Instagram, Twitter, Linkedin, User, Calendar, Ticket, Eye, Clock, Tag } from 'lucide-react';
 import { Progress } from "@/components/ui/progress";
+import Image from 'next/image';
 
 interface UserProfile {
   username: string;
@@ -76,7 +77,6 @@ const CustomLoader = () => (
 export default function Profile() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [editing, setEditing] = useState(false);
-  const [username, setUsername] = useState('');
   const [bio, setBio] = useState('');
   const [instagram, setInstagram] = useState('');
   const [twitter, setTwitter] = useState('');
@@ -130,7 +130,6 @@ export default function Profile() {
           };
 
           setProfile(profile);
-          setUsername(profile.username);
           setBio(profile.bio);
           setInstagram(profile.socialLinks.instagram || '');
           setTwitter(profile.socialLinks.twitter || '');
@@ -449,7 +448,7 @@ export default function Profile() {
               
               <div className="bg-gray-900 p-4 rounded-lg mb-4 border border-gray-700">
                 <div className="mb-4 aspect-video bg-gray-800 rounded flex items-center justify-center">
-                  <img src="/api/placeholder/400/225" alt="Event" className="rounded" />
+                  <Image src="/api/placeholder/" width='400'height='225' alt="Event" className="rounded" />
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center text-gray-300">
@@ -462,7 +461,7 @@ export default function Profile() {
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Tag size={16} className="mr-2 text-purple-500" />
-                    <span>{ethers.utils.formatEther(selectedEvent.price)} ETH</span>
+                    <span>{ethers.utils.formatEther(selectedEvent.price)} GAS</span>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-300 mb-1">

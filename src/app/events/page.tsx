@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '@/config/contract';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calendar, Clock, Tag, Users, Ticket } from 'lucide-react';
+import { Calendar, Clock, Tag, Ticket } from 'lucide-react';
 import { Progress } from "@/components/ui/progress";
+import Image from 'next/image';
 
 interface Event {
   id: number;
@@ -313,7 +314,7 @@ export default function Events() {
             <h2 className="text-2xl font-bold mb-4 gradient-text">{selectedEvent.name} - Your Ticket</h2>
             <div className="bg-gray-900 p-4 rounded-lg mb-4 border border-gray-700">
               <div className="mb-4 aspect-video bg-gray-800 rounded flex items-center justify-center">
-                <img src="/api/placeholder/400/225" alt="Event" className="rounded" />
+                <Image src="/api/placeholder" width='400' height='225' alt="Event" className="rounded" />
               </div>
               <div className="space-y-2">
                 <p className="text-gray-300"><strong>Date:</strong> {new Date(selectedEvent.date * 1000).toLocaleString()}</p>
