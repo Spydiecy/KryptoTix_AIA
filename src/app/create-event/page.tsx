@@ -173,7 +173,7 @@ export default function CreateEvent() {
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <label htmlFor="price" className="block mb-2 text-gray-300">Ticket Price (ETH)</label>
+            <label htmlFor="price" className="block mb-2 text-gray-300">Ticket Price (GAS)</label>
             <div className="relative">
               <input
                 type="number"
