@@ -2,11 +2,11 @@
 
 ![logo_concept_for_kryptotix_minimal-removebg-preview](https://github.com/user-attachments/assets/a3e0bf97-9d54-4bbc-8522-9d959264f8a9)
 
-KryptoTix is revolutionizing event ticketing with blockchain transparency, secure transactions, and NeoX-powered efficiency.
+KryptoTix is revolutionizing event ticketing with blockchain transparency, secure transactions, and AIAX-powered efficiency.
 
 ## About KryptoTix
 
-KryptoTix is a cutting-edge decentralized event ticketing platform built on the NeoX blockchain. We're reimagining the traditional ticketing experience by leveraging blockchain technology to ensure transparency, security, and instant transactions. Our smart contract-powered system offers event organizers and attendees a seamless, trustless environment for creating, selling, and managing event tickets.
+KryptoTix is a cutting-edge decentralized event ticketing platform built on the AIAX blockchain. We're reimagining the traditional ticketing experience by leveraging blockchain technology to ensure transparency, security, and instant transactions. Our smart contract-powered system offers event organizers and attendees a seamless, trustless environment for creating, selling, and managing event tickets.
 
 ![image](https://github.com/user-attachments/assets/4639d204-a795-46b0-830c-f78b6c420d7b)
 
@@ -18,7 +18,7 @@ KryptoTix is a cutting-edge decentralized event ticketing platform built on the 
 - Users can easily transfer or resell tickets within the platform
 
 ### 🔒 Secure Transactions
-- Built on the robust NeoX blockchain
+- Built on the robust AIAX blockchain
 - Smart contracts eliminate the need for intermediaries
 - Enhanced security features protect user funds and data
 
@@ -37,14 +37,14 @@ KryptoTix is a cutting-edge decentralized event ticketing platform built on the 
 - No long waiting periods for payouts
 - Transparent fee structure
 
-### 🌐 NeoX Powered
-- Leveraging the speed and efficiency of the NeoX blockchain
+### 🌐 AIAX Powered
+- Leveraging the speed and efficiency of the AIAX blockchain
 - Low transaction fees and fast confirmation times
-- Seamless integration with other Neo ecosystem projects
+- Seamless integration with other AIA ecosystem projects
 
 ## How It Works
 
-1. **Connect Wallet**: Users connect their NeoX-compatible wallet to the platform.
+1. **Connect Wallet**: Users connect their AIAX-compatible wallet to the platform.
 2. **Create Profile**: Set up a personalized profile with username and social links.
 3. **Browse Events**: Explore upcoming events or create your own.
 4. **Purchase Tickets**: Buy tickets using AIA tokens.
