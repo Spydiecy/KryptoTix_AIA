@@ -239,7 +239,7 @@ export default function Events() {
                       </div>
                       <div className="flex items-center text-sm text-gray-400">
                         <Tag size={16} className="mr-2 text-purple-500" />
-                        <span>{ethers.utils.formatEther(event.price)} GAS</span>
+                        <span>{ethers.utils.formatEther(event.price)} AIA</span>
                       </div>
                       <div>
                         <div className="flex items-center justify-between text-sm text-gray-400 mb-1">
@@ -275,7 +275,7 @@ export default function Events() {
                         >
                           {event.ticketsSold >= event.totalTickets 
                             ? 'Sold Out' 
-                            : `Buy Ticket (${ethers.utils.formatEther(event.price)} ETH)`}
+                            : `Buy Ticket (${ethers.utils.formatEther(event.price)} AIA)`}
                         </button>
                       )
                     )}
@@ -318,7 +318,7 @@ export default function Events() {
               </div>
               <div className="space-y-2">
                 <p className="text-gray-300"><strong>Date:</strong> {new Date(selectedEvent.date * 1000).toLocaleString()}</p>
-                <p className="text-gray-300"><strong>Price:</strong> {ethers.utils.formatEther(selectedEvent.price)} GAS</p>
+                <p className="text-gray-300"><strong>Price:</strong> {ethers.utils.formatEther(selectedEvent.price)} AIA</p>
                 <p className="text-gray-300"><strong>Your Tickets:</strong> {userTickets[selectedEvent.id]}</p>
               </div>
             </div>

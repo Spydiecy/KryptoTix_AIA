@@ -47,7 +47,7 @@ KryptoTix is a cutting-edge decentralized event ticketing platform built on the 
 1. **Connect Wallet**: Users connect their NeoX-compatible wallet to the platform.
 2. **Create Profile**: Set up a personalized profile with username and social links.
 3. **Browse Events**: Explore upcoming events or create your own.
-4. **Purchase Tickets**: Buy tickets using GAS tokens.
+4. **Purchase Tickets**: Buy tickets using AIA tokens.
 5. **Attend Events**: Use the platform to validate tickets at the venue.
 6. **Manage Tickets**: Easily view, transfer, or resell your tickets.
 

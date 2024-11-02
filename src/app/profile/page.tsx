@@ -461,7 +461,7 @@ export default function Profile() {
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Tag size={16} className="mr-2 text-purple-500" />
-                    <span>{ethers.utils.formatEther(selectedEvent.price)} GAS</span>
+                    <span>{ethers.utils.formatEther(selectedEvent.price)} AIA</span>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-300 mb-1">
